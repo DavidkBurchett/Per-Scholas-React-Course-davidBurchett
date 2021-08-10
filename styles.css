@@ -11,7 +11,7 @@ h1 {
 }
 
 .nav__list {
-
+  list-style-type: none;
 }
 
 .nav__list_item {
@@ -19,6 +19,7 @@ h1 {
 }
 
 .page {
+  background-color: rgb(31, 31, 223);
 
 }
 
@@ -41,10 +42,12 @@ h1 {
 }
 
 .main-content {
+  background-color: rgb(31, 31, 223);
 
 }
 
 .main-content__section {
-  background-color: cornsilk;
+  background-color: rgb(25, 25, 168);
+  color: white;
 
 }
