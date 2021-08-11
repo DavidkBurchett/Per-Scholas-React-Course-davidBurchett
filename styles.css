@@ -12,37 +12,47 @@ h1 {
 
 .nav__list {
   list-style-type: none;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  inline-size: 250px;
 }
 
 .nav__list_item {
-
+  flex-grow: 1;
 }
 
 .page {
   background-color: rgb(31, 31, 223);
-
+  font-family: Arial, Helvetica, sans-serif;
 }
 
 .page__header {
   background-color: aqua;
-
+  display: flex;
+  
 }
 .page__content {
   background-color: beige;
+  display: flex;
+  flex-flow: row nowrap;
+  justify-content: center;
 
 }
 
 .left-content {
   background-color: burlywood;
-
+  flex-grow: 1;
 }
 
 .right-content {
   background-color: burlywood;
+  flex-grow: 1;
 }
 
 .main-content {
   background-color: rgb(31, 31, 223);
+  flex-grow: 4;
 
 }
 
@@ -50,4 +60,13 @@ h1 {
   background-color: rgb(25, 25, 168);
   color: white;
 
+}
+
+.left-list{
+  list-style-type: none;
+} 
+
+.images {
+ width: 48px;
+ height: 48px;
 }
