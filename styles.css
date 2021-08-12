@@ -4,6 +4,7 @@ h1 {
 
 .big-heading {
   font-family: Verdana;
+  font-size: 400%;
 }
 
 .section-heading {
@@ -23,12 +24,12 @@ h1 {
 }
 
 .page {
-  background-color: rgb(31, 31, 223);
+  background-color: rgb(25, 25, 168);
   font-family: Arial, Helvetica, sans-serif;
 }
 
 .page__header {
-  background-color: aqua;
+  background-color: rgb(6, 177, 177);
   display: flex;
   
 }
@@ -37,26 +38,31 @@ h1 {
   display: flex;
   flex-flow: row nowrap;
   justify-content: center;
-
 }
 
 .left-content {
-  background-color: burlywood;
+  background-color: rgb(25, 25, 168);
   flex-grow: 1;
 }
 
 .right-content {
-  background-color: burlywood;
+  background-color: rgb(25, 25, 168);
   flex-grow: 1;
 }
 
 .main-content {
-  background-color: rgb(31, 31, 223);
+  background-color: rgb(25, 25, 168);
   flex-grow: 4;
+  padding-left: 20%;
+  padding-right: 30%;
+  display: flex;
+  flex-flow: column nowrap;
+  justify-content: center;
 
 }
 
 .main-content__section {
+  margin-top: 20%;
   background-color: rgb(25, 25, 168);
   color: white;
 
@@ -64,9 +70,27 @@ h1 {
 
 .left-list{
   list-style-type: none;
+  display: flex;
+  flex-flow: column nowrap;
+  margin-right: 5%;
+  padding-left: 5%;
 } 
 
 .images {
  width: 48px;
  height: 48px;
+ padding-bottom: 50%;
+}
+
+a:link, a:visited {
+  background-color: rgb(6, 177, 177);
+  color: white;
+  padding: 14px 25px;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+}
+
+#about{
+  margin-top: 80%;
 }
